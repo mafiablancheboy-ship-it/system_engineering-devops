@@ -1,0 +1,1 @@
+In this course, I have learned how Git works, how to clone repositories, and how to manage versions using commits and GitHub.
