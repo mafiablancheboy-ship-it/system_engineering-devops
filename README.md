@@ -1,2 +1,4 @@
-hello there
-this is tge requested read me file
+$ chmod +x ./0-current_working_directory
+$ ./0-current_working_directory
+/root/system_engineering-devops/0x00-shell_basics
+$
