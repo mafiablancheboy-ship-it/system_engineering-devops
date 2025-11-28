@@ -1,3 +1,2 @@
 #!/usr/bin/env bash
-# creates an empty file called hello
 touch hello
