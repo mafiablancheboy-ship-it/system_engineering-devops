@@ -1,2 +1,7 @@
 #!/bin/bash
-echo "Best School" > "\*\\\"Best School\"\\*\$\?\*\*\*\*\*:)"
+# 0x02-shell_redirections/7-file
+# create a file whose exact name is: *\'"Best School"\'\*$\?*****:)
+# and write "Best School" followed by a newline into it.
+
+filename=$'\x2a\x5c\x27\x22Best School\x22\x5c\x2a\x5c\x24\x5c\x3f\x2a\x2a\x2a\x2a\x2a\x3a\x29'
+printf 'Best School\n' > "$filename"
